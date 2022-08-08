@@ -1,7 +1,5 @@
 # ts-base-example
 
-[![Build Status](https://github.com/danielrussocki/ts-base-example/tree/main)](https://github.com/danielrussocki/ts-base-example)
-
 Favor de agregar unas credenciales en el archivo **.env** de una base de datos **PostgreSQL** en caso de querer correr el proyecto o agregarlas directamente en el archivo _src/application/repos/project-database/app.project-database.repo.ts_
 
 ## Tech
