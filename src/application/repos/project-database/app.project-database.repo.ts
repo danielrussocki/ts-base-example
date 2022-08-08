@@ -7,9 +7,9 @@ export const AppProjectDatabaseRepo = new Sequelize(
   process.env.REPO_DB_USER || '',
   process.env.REPO_DB_PASS,
   {
-    host: process.env.DYNAMI_RE_DB_HOST,
+    host: process.env.REPO_DB_HOST,
     dialect: 'postgres',
-    // port: process.env.DYNAMI_RE_DB_PORT,
+    // port: process.env.REPO_DB_PORT,
     logging: console.log,
     // timezone: 'America/Mexico_City',
     pool: {
